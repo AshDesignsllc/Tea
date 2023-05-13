@@ -42,7 +42,7 @@ nav a {
 .container-1 {
     height: 700px;
     width: 95%;
-    background-image: url("./resources/images/img-mission-background.jpg");
+    background-image: url("resources/images/img-mission-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +96,7 @@ nav a {
 .container-3 {
     height: 500px;
     width: 90%;
-    background-image: url("./resources/images/img-locations-background.webp");
+    background-image: url("resources/images/img-locations-background.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
