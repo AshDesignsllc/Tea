@@ -1,0 +1,170 @@
+* {
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+body {
+    background-color: #000000;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+/* NAVIGATION BAR */
+
+header {
+    border-bottom: 1px solid seashell;
+}
+
+header nav {
+    height: 69px;
+    width: auto;
+}
+
+header nav img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav a {
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding: 15px 10px;
+    float: right;
+    
+}
+
+/* Mission Section */
+
+.container-1 {
+    height: 700px;
+    width: 95%;
+    background-image: url("/resources/images/img-mission-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin:auto;
+    position: relative;
+}
+
+#mission {
+    background-color: #000000;
+    width: 100%;
+    padding: 10px 0;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    text-transform: capitalize;
+    margin: auto;
+}
+
+
+/* Featured Tea */
+
+#featured_tea {
+    text-align: center; 
+    text-transform: capitalize;
+}
+
+.container-2 {
+    min-width: 320px;
+    height: auto;
+    text-align: center;
+    margin-left: -37px;
+}
+
+#featured_tea ul li {
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-right: 10px;
+    /* margin-left: -37px; */
+}
+
+#featured_tea li img {
+    width: 300px;
+    height: 200px;
+}
+
+/* Locations */
+
+.container-3 {
+    height: 500px;
+    width: 90%;
+    background-image: url("/resources/images/img-locations-background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    margin: 25px auto;
+    overflow: scroll;
+}
+
+#location_heading h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.locations {
+    /* padding: 10px; */
+    position: absolute;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    width: 97%;
+    height: auto;
+    justify-content: space-evenly;
+ 
+}
+
+#downtown, #oakdale, #east_bayside  {
+    opacity: 1;
+    width: 300px;
+    margin-top: 25px;
+    padding: 12px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #000000;
+}
+
+#oakdale {
+    margin-bottom: 25px;
+}
+
+/* Contact info */
+
+#contact_info {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+ h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+ }
+
+h5 {
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Footer */
+
+ footer p {
+    margin-left: 20px;
+    text-align: left;
+    font-size: 13px;
+    text-transform: capitalize;
+ }
